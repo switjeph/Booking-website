@@ -1,0 +1,21 @@
+.home-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.hero {
+  background: #007bff;
+  color: white;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.book-now-btn {
+  display: inline-block;
+  background: #ffcc00;
+  padding: 10px 20px;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
