@@ -1,16 +1,145 @@
+.home-page {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hero {
+  background: url("../assets/bg.jpeg") center/cover no-repeat;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+  padding: 100px 20px;
+  /* border-radius: 12px; */
+}
+
+.home .overlay {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 50px;
+  border-radius: 12px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  color: aqua;
+}
+
+.book-now-btn {
+  background: #ff5733;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.features {
+  text-align: center;
+  padding: 3rem;
+}
+
+.feature-list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.feature-item {
+  background: #ffebcc;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.popular-destinations {
+  padding: 3rem 1rem;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+.destination-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 20px;
+}
+
+.destination {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.1s ease;
+  width: 300px;
+  text-align: center;
+}
+
+.destination:hover {
+  transform: scale(1.05);
+}
+
+.destination img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.destination h3 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.testimonials {
+  padding: 3rem;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+.testimonial {
+  background: white;
+  padding: 1rem;
+  margin: 1rem auto;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.cta {
+  text-align: center;
+  padding: 3rem;
+  background: #ff5733;
+  color: white;
+}
+
+.cta .book-now-btn {
+  background: white;
+  color: #ff5733;
+}
+
+.cta .book-now-btn:hover {
+  background: #f4f4f4;
+}
+
 .home-container {
   padding: 20px;
   text-align: center;
 }
 
-.hero {
+/* .hero {
   background: #007bff;
   color: white;
   padding: 50px;
   border-radius: 10px;
-}
+} */
 
-.book-now-btn {
+/* .book-now-btn {
   display: inline-block;
   background: #ffcc00;
   padding: 10px 20px;
@@ -18,4 +147,4 @@
   text-decoration: none;
   border-radius: 5px;
   margin-top: 10px;
-}
+} */

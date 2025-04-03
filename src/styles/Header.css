@@ -1,26 +1,29 @@
+
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #1e293b; 
+  background: #16213e;
   padding: 15px 30px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   position: relative;
 }
 
 .logo-container {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 .logo-container img {
-  height: 50px;
+  width: 50px;
+  height: auto;
 }
 
 h1 {
   color: #ffffff;
   font-size: 24px;
+  font-weight: bold;
 }
 
 nav {
@@ -32,14 +35,15 @@ nav a {
   text-decoration: none;
   color: #f1f5f9;
   font-size: 18px;
-  transition: color 0.3s ease;
+  font-weight: bold;
+  transition: 0.3s ease;
 }
 
 nav a:hover {
-  color: #facc15; /* Golden yellow hover effect */
+  color: #ff6600; 
 }
 
-/* Hamburger button - hidden on large screens */
+
 .hamburger {
   display: none;
   font-size: 28px;
