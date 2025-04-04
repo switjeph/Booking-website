@@ -5,6 +5,8 @@ import Home from "./Components/Home";
 import BookingForm from "./Components/BookingForm";
 import Confirmation from "./Components/Confirmation";
 import "./app.css";
+import ContactPage from "./Components/ContactPage";
+import AboutPage from "./Components/AboutPage";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/about" element={<AboutPage />} />
           <Route path="/booking" element={<BookingForm />} />
           <Route path="/confirmation" element={<Confirmation />} />
         </Routes>

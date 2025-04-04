@@ -17,12 +17,12 @@
   margin: 0 auto;
   padding: 2rem;
   background: white;
-  border-radius: 12px;
+  /* border-radius: 12px; */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   margin-top: 2rem;
   /* display: flex; */
   /* flex-direction: column; */
-  /* gap: 15px; */
+  gap: 15px;
 }
 
 h2 {
@@ -38,6 +38,7 @@ h2 {
   font-weight: bold;
   display: block;
   text-align: left;
+  padding-right: 1rem;
   /* flex-direction: column; */
 }
 

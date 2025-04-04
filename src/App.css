@@ -9,10 +9,17 @@ header {
   position: relative;
 }
 
-body, html {
+/* body, html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+} */
+.page-container {
+  max-width: 1200px;       /* or whatever fixed size you prefer */
+  margin: 0 auto;          /* center horizontally */
+  padding: 2rem;           /* consistent spacing inside */
+  min-height: 100vh;       /* full screen height */
+  box-sizing: border-box;  /* include padding in width/height */
 }
 
 #root {
