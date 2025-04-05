@@ -4,7 +4,7 @@ import Header from "./Components/Header";
 import Home from "./Components/Home";
 import BookingForm from "./Components/BookingForm";
 import Confirmation from "./Components/Confirmation";
-import "./styles/App.css";
+import "./App.css";
 import ContactPage from "./Components/ContactPage";
 import AboutPage from "./Components/AboutPage";
 
