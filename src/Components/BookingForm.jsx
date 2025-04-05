@@ -13,7 +13,7 @@ function BookingForm() {
     };
 
     return (
-      <main className="booking-page">
+      <main className="page-container booking-page">
         <section className="booking-form">
           <h2>Book Your Stay</h2>
           <p>Secure your perfect getaway in just a few clicks</p>

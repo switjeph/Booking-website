@@ -3,7 +3,7 @@ import "../styles/ContactPage.css";
 
 function ContactPage() {
   return (
-    <main className="contact-page">
+    <main className="page-container contact-page">
       <section className="contact-hero">
         <h1>Contact Us</h1>
         <p>We're here to to help! Reach out to us for any inquiries</p>
@@ -27,10 +27,10 @@ function ContactPage() {
       <section className="contact-form">
         <h2>Send us a Message</h2>
         <form action="">
-            <input type="text" placeholder="Your Name" required />
-            <input type="email" placeholder="Your Email" required />
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
         </form>
       </section>
     </main>
