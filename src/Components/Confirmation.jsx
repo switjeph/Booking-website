@@ -8,8 +8,10 @@ function Confirmation() {
         <h2>Booking Confirmed!</h2>
         <p>
           Thank you for choosing Alpha Bookings. We look forward to serving you.
-          <a href="/" className="back-home-btn">Back to Home</a>
         </p>
+        <a href="/" className="back-home-btn">
+          Back to Home
+        </a>
       </div>
     </main>
   );
