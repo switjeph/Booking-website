@@ -3,9 +3,10 @@ header {
   align-items: center;
   justify-content: space-between;
   background: #16213e;
-  padding: 15px 30px;
+  padding: 1rem 2rem;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   position: relative;
+  color: white;
 }
 
 /* body, html {
@@ -16,7 +17,7 @@ header {
 .page-container {
   max-width: 1200px; /* or whatever fixed size you prefer */
   margin: 0 auto; /* center horizontally */
-  padding: 2rem; /* consistent spacing inside */
+  padding: 2rem 1.5rem; /* consistent spacing inside */
   min-height: 100vh; /* full screen height */
   box-sizing: border-box; /* include padding in width/height */
 }
@@ -32,45 +33,99 @@ header {
   text-align: center;
 }
 
-@media (max-width: 2040px) {
+button, .book-now-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 0.7rem 1.25rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover, .book-now-btn:hover {
+  background-color: #0056b3;
+  text-decoration: none;
+}
+
+@media (max-width: 1040px) {
   .page-container {
-    padding: 1.5em;
+    padding: 1.5em 1.2rem;
   }
 
   header {
-    padding: 12px 24px;
+    padding: 0.75rem 1.5rem;
+  }
+
+  button, .book-now-btn {
+    padding: 0.7rem 1rem;
+    font-size: 0.95rem;
   }
 }
 
 @media (max-width: 768px) {
   .page-container {
-    padding: 1rem;
+    padding: 1.2rem 1rem;
   }
 
   header {
     flex-direction: column;
     align-items: flex-start;
-    padding: 12px 24px;
+    padding: 1rem;
   }
 
-  header h1 {
+  .nav-menu {
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 100%;
+    display: none;
+    margin-top: 1rem;
+  }
+
+  .nav-menu.open {
+    display: flex;
+  }
+
+  /* header h1 {
     padding: 1.5rem;
+  } */
+
+  .hamburger {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    margin-left: auto;
+    margin-top: 0.5rem;
   }
 }
 
 @media (max-width: 480px) {
   .page-container {
-    padding: 0.8rem;
+    padding: 1rem 0.75rem;
   }
 
   header {
     /* flex-direction: column;
     align-items: flex-start; */
-    padding: 8px 16x;
+    /* padding: 8px 16x; */
   }
 
   header h1 {
     padding: 1.2rem;
+  }
+
+  .book-now-btn {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  form {
+    padding: 1rem;
   }
 }
 
