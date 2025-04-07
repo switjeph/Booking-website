@@ -53,7 +53,7 @@ nav a:hover {
   cursor: pointer;
 }
 
-/* Responsive Design */
+/* Responsive Design
 @media (max-width: 768px) {
   .hamburger {
     display: block;
@@ -86,4 +86,4 @@ nav a:hover {
   .nav-menu a:last-child {
     border-bottom: none;
   }
-}
+} */
