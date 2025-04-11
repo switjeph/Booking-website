@@ -7,6 +7,8 @@
 
 .hero {
   background: url("../assets/bg.jpeg") center/cover no-repeat;
+  margin-left: calc(-50vw + 50%);
+  width: 96.2vw;
   height: 80vh;
   display: flex;
   align-items: center;
@@ -112,6 +114,8 @@
 }
 
 .cta {
+  width: 96.2vw;
+  margin-left: calc(-50vw + 50%);
   text-align: center;
   padding: 3rem;
   background: #ff5733;
