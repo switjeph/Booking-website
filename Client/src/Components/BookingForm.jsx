@@ -7,7 +7,6 @@ function BookingForm() {
   const [time, setTime] = useState("");
   const [guests, setGuests] = useState(1);
 
-
   const handleSubmit = async (e) => {
     e.preventDefault();
 
